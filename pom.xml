@@ -34,6 +34,18 @@
 			<version>1.1.13.0-mapr-630</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.mapr.fs</groupId>
+			<artifactId>mapr-hbase</artifactId>
+			<version>6.1.0-mapr</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.mapr.fs.native</groupId>
+			<artifactId>mapr-mac-x86_64</artifactId>
+			<version>6.1.0-mapr</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -74,7 +86,7 @@
 
 
 		</plugins>
-		<finalName>hbase-demo</finalName>
+		<finalName>hbase-demo2</finalName>
 	</build>
 
 
